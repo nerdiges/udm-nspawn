@@ -1,0 +1,13 @@
+[Unit]
+Description=Reinstall nspawn system after firmware update and prepare network interfaces for containers.
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/data/custom/nspawn
+ExecStart=/data/custom/nspawn/udm-nspawn.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
