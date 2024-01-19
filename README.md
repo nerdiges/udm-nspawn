@@ -1,6 +1,8 @@
 # udm-nspawn
 Umgebung für nspawn auf der UDM-Pro einrichten.
 
+Mit unifiOS 3.2.7 können nspawn Container genutzt werden. udm-nspawn sorgt dafür, dass bei Systemstarts oder nach einem unifiOS Update das System für den Container-Betrieb entsprechend vorbereitet ist. Die Einrichtung der nspwan-Container muss zuvor allerdings manuell erfolgen. Anleitungen dzu gibt es unter [unifios-utilities - nspawn-container](https://github.com/unifi-utilities/unifios-utilities/tree/main/nspawn-container) oder [nerdig.es - pihole im Container installieren - Teil 1](https://nerdig.es/udm-pro-pihole-installieren-teil-1).
+
 ## Voraussetzungen
 Unifi Dream Machine Pro mit UnifiOS Version 3.x. Erfolgreich getestet mit UnifiOS 3.2.7.
 
