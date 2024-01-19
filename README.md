@@ -60,7 +60,7 @@ ln -s /data/custom/nspawn/udm-nspawn.service /etc/systemd/system/udm-nspawn.serv
 
 # Reload systemd, enable and start the service and timer:
 systemctl daemon-reload
-systemctl enable udm-nspawm.service
+systemctl enable udm-nspawn.service
 systemctl start udm-nspawn.service
 ```
 
