@@ -44,7 +44,7 @@ me=$(basename $0)
 # install systemd-container if it's not installed. 
 if ! dpkg -l systemd-container | grep ii >/dev/null; then
     if ! apt -y install systemd-container debootstrap; then
-        yes | dpkg -i "${dpkg_dir}/*.deb"
+        yes | dpkg -i ${dpkg_dir}/*.deb
     fi
 fi
 
